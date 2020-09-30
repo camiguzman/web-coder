@@ -1,0 +1,58 @@
+.about__div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.about__div .about__divtexto {
+  width: 35%;
+  font-weight: 200;
+  font-size: 17px;
+  line-height: 37px;
+}
+.about__div .about__divfoto {
+  width: 40%;
+  height: 50%;
+}
+
+.tres__cuadrados {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-flow: wrap;
+  height: auto;
+  width: 100%;
+  margin-top: 59px;
+}
+.tres__cuadrados .tres__cuadradostxt {
+  width: 20%;
+  background-color: #fafafa;
+  font-weight: 200;
+  font-size: 19px;
+  margin: 40px;
+  box-sizing: border-box;
+}
+
+.foto__div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.foto__div .foto__divFoto {
+  width: 25%;
+  margin-top: 40px;
+}
+
+.div__p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 99px;
+}
+.div__p .div__p_texto {
+  width: 87%;
+  font-size: 47px;
+  font-weight: 200;
+}
